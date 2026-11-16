@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendas.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <title>Vendas</title>
+</head>
+<body>
+    <!--INICIO TOTAL de Vendas-->
+    <header>
+      <!--Parte da data-->
+     
+
+     
+        <div class="d-flex flex-column mb-3">
+  <div class="p-2"> <div class="data">
+        <img src="calendar.png" alt="Ícone de calendário" class="calendar">
+        <span id="data-atual"></span>
+      </div></div><br>
+
+  <div class="p-2"> <div class="vendas">
+        <div>
+          <h3>TOTAL DE VENDAS</h3>
+        <h3 id="total-vendas">R$ 0,00</h3>
+        </div><br>
+        <div class="d-inline-flex p-2"><p class="ticket-medio">Ticket Médio: <strong>R$ 0,00</strong></p></div>
+      </div></div>   
+</div>
+        
+    </header>
+    <main>
+      <!--FIM TOTAL de Vendas-->
+
+<!--INICIO Dados Vendas-->
+    <article class="dados-vendas">
+<div class="d-flex justify-content-center"> <!--Bootstrap para deixar no centro-->
+  <div class="d-flex flex-row mb-3"> <!--Bootstrap para alinhar os itens em sequencia-->
+    <div class="Vendidos">
+      <div class="p-2">
+    <!--Bootrap para deixar os números em colunas-->
+    <div class="d-flex flex-column mb-3">
+  <div class="p-2"><p>TOTAL </p></div>
+  <div class="p-2">Produtos  Vendidos</div>
+  <div class="p-2">7 itens</div>
+</div>
+    </div>
+  </div>
+  
+</div>
+</div>
+    </article>
+    <!--FIM Dados Vendas-->
+
+    <!--INICIO Vendas-->
+
+    <article class="vendas">
+      <div class="d-flex flex-row mb-3">
+        <div class="p-2"><img src="bolsa1x.png" alt="Ícone de produtos vendidos" class="produtos-vendidos"></div>
+        <div class="p-2"><h5>Produtos Vendidos</h5></div>
+      </div>
+      
+      <!--Containers das vendas-->
+    <div class="d-flex justify-content-center"><!--Bootsrap para deixar no centro-->
+        
+    </div> 
+      
+    </article>
+    <!--FIM Vendas-->
+    </main>
+
+
+     <footer class="navegacao">
+       <!-- Navbar Inferior Flutuante -->
+<nav class="custom-bottom-nav fixed-bottom">
+  <div class="nav-container">
+    <!-- Itens da Esquerda -->
+    <a href="../Perfil/perfil.html" class="nav-item">
+      <i class="bi bi-person"></i>
+      <span>Perfil</span>
+    </a>
+    <a href="../Vendas/vendas.html" class="nav-item">
+      <i class="bi bi-cash-coin"></i>
+      <span>Vendas</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="bi bi-file-text"></i>
+      <span>Registro</span>
+    </a>
+
+    <!-- Botão Central de Destaque (+) -->
+     <!--Classe do botão: nav-center-btn-->
+    <div class="nav-center-btn-wrapper">
+      <button class="nav-center-btn" aria-label="Adicionar">
+        <i class="bi bi-plus-lg"></i>
+      </button>
+    </div>
+
+    <!-- Itens da Direita -->
+    <a href="#" class="nav-item">
+      <i class="bi bi-box-seam"></i>
+      <span>Catalogo</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="bi bi-graph-up"></i>
+      <span>Estatistica</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="bi bi-question-circle"></i>
+      <span>FAQ</span>
+    </a>
+  </div>
+</nav>
+    </footer>
+    <!--Navegação-->
+
+<script
+type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"> 
+</script>
+
+<script src="vendas.js"></script>
+</body>
+</html>

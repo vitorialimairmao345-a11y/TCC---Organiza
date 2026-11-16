@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+padding:0%;
+margin: 0%;
+}
+
+main{
+    padding: 1rem;
+}
+/*Estilização Do Perfil*/
+header img {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Opcional: deixa a imagem redonda */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.informacao{
+    margin-left: 1rem;
+}
+
+header{
+    background-color: #ec598a; 
+    padding: 2rem;
+    display: flex;
+    font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 80%;
+  font-style: normal;
+  color:white;
+}
+/*Estilização Do Perfil*/
+
+/*------------------------------------------------------------------*/
+
+/* INICIO Estilização Das "contas de banco"*/
+.conta{
+display: flex;
+flex-direction: column;
+margin-left: 1rem;
+border-bottom: 2px solid rgb(218, 218, 218) ;
+  padding:1rem;
+}
+
+.conta img {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.conta h3 {
+    margin-left: 1rem;
+    margin-right:1rem;
+    font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 80%;
+  font-style: normal;
+  color:black;
+}
+
+.bancos{
+    flex-direction: row;
+    display: flex;
+    margin-top: 2rem;
+}
+/*Estilização botões bancos*/
+.PF{
+  background-color: PINK; /* Cor de fundo azul */
+  color: #fff;               /* Cor do texto em branco */
+  border: 1px solid PINK; /* Borda sólida */
+  border-radius: 4px;        /* Cantos arredondados */
+  padding: 10px 20px;        /* Espaçamento interno */
+  font-size: 16px;           /* Tamanho da fonte */
+  cursor: pointer;           /* Mostra a mãozinha ao passar o mouse */
+  transition: background-color 0.3s ease; /* Suaviza animações */
+  font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+font-style: normal;
+}
+
+.PF:hover{
+ background-color: rgb(255, 167, 181); /* Tom de azul mais escuro */
+}
+
+.PJ{
+  background-color: PINK; /* Cor de fundo azul */
+  color: #fff;               /* Cor do texto em branco */
+  border: 1px solid PINK; /* Borda sólida */
+  border-radius: 4px;        /* Cantos arredondados */
+  padding: 10px 20px;        /* Espaçamento interno */
+  font-size: 16px;           /* Tamanho da fonte */
+  cursor: pointer;           /* Mostra a mãozinha ao passar o mouse */
+  transition: background-color 0.3s ease; /* Suaviza animações */
+  margin-left: 15px;
+  font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+font-style: normal;
+}
+
+.PJ:hover{
+   background-color: rgb(255, 167, 181); /* Tom de azul mais escuro */  
+}
+
+/* FIM Estilização Das "contas de banco"*/
+/*------------------------------------------------------------------*/
+
+/*INICIO Termometro Teto MEI*/
+.termometro{
+  padding: 1rem;
+}
+
+h5{
+  color:rgb(92, 92, 92)
+}
+/*FIMTermometro Teto MEI*/
+
+/*INICIO Alertas pendencias*/
+.alerts{
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: rgba(254, 243, 219, 1);
+  margin-top: 12px;
+  margin: 1px solid rgb(255, 218, 138);
+}
+
+.aviso{
+   background-color: rgb(255, 234, 187); /* Cor de fundo azul */
+  color: black;               /* Cor do texto em branco */
+  border: 1px solid rgb(255, 218, 138); /* Borda sólida */
+  border-radius: 4px;        /* Cantos arredondados */
+  padding: 10px 20px;        /* Espaçamento interno */
+  font-size: 16px;           /* Tamanho da fonte */
+  cursor: pointer;           /* Mostra a mãozinha ao passar o mouse */
+  transition: background-color 0.3s ease; /* Suaviza animações */
+  margin-left: 15px;
+  font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+font-style: normal;
+}
+
+.aviso:hover{
+background-color:rgb(255, 222, 151);
+}
+/*FIM Alertas pendencias*/
+
+/*INICIO Estilização Resumo*/
+.resumo{
+  padding:20px;
+}
+
+.Res_mes{
+  margin-left: 10px;
+}
+
+.btnV{
+  background-color: rgb(255, 255, 255); /* Cor de fundo azul */
+  color: black;               /* Cor do texto em branco */
+  border: 1px solid black; /* Borda sólida */
+  border-radius: 30px;        /* Cantos arredondados */
+  padding: 5px 10px;        /* Espaçamento interno */
+  font-size: 13px;           /* Tamanho da fonte */
+  cursor: pointer;           /* Mostra a mãozinha ao passar o mouse */
+  transition: background-color 0.3s ease; /* Suaviza animações */
+  margin-left: 15px;
+  font-family: "Xmind", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btnV:hover{
+  background-color: rgb(197, 197, 197); /* Tom de azul mais escuro */ 
+}
+/*FIM Estilização Resumo*/
+
+/*INICIO Estilização parte de navegação (FOOTER)*/
+.navegacao{
+padding: 2rem;
+}
+
+/* Container principal da barra flutuante */
+.custom-bottom-nav.fixed-bottom {
+  position: fixed;
+  bottom: 20px; /* Afasta um pouco do fundo do ecrã */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  background-color: #ec407a; /* Cor rosa principal */
+  border-radius: 40px; /* Cantos bem arredondados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  z-index: 1030;
+  padding: 8px 15px;
+}
+
+/* Alinhamento dos itens */
+.custom-bottom-nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* Estilo de cada link/ícone */
+.custom-bottom-nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 11px;
+  flex: 1;
+  transition: opacity 0.2s;
+}
+
+.custom-bottom-nav .nav-item i {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.custom-bottom-nav .nav-item:hover {
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+/* Botão central flutuante (+) */
+.nav-center-btn-wrapper {
+  position: relative;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-bottom-nav .nav-center-btn {
+  position: absolute;
+  top: -38px; /* Faz o botão saltar para fora da barra */
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 4px solid #ec407a; /* Cria a bordinha rosa em volta */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ec407a;
+  font-size: 26px;
+  cursor: pointer;
+  box-init: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.custom-bottom-nav .nav-center-btn:hover {
+  transform: scale(1.05);
+}
+/*FIM Estilização parte de navegação (FOOTER)*/
+
